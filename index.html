@@ -60,13 +60,20 @@
                 list-style-type: none;
                 padding: 0;
                 text-align: center;
+                
                 background-color: #4CAF50;
                 height: 50px;
 
             }
             nav ul li {
+                font-size: 18px;
                 display: inline;
                 margin: 0 15px;
+                justify-content: center;
+                justify-items: center;
+                align-items: center;
+                margin-top: 20px;
+                
             }
             nav ul li a {
                 text-decoration: none;
@@ -75,13 +82,39 @@
                 
             }
              nav ul li a:hover {
-                color: #4CAF50;
+                color: #b40bdf;
             }   
+            aside {
+                background-color: #f9f9f9;
+                padding: 15px;
+                border: 1px solid #ddd;
+                margin: 20px auto;
+                width: 80%;
+            }
+             aside h3 {
+                text-align: center;
+                color: #4CAF50;
+            }
+             aside ul {
+                list-style-type: none;
+                padding: 0;
+            }
+             aside ul li {
+                margin: 10px 0;
+            }
+             aside ul li a {
+                text-decoration: none;
+                color: #4CAF50;
+            }
+             aside ul li a:hover {
+                color: #000;
+            }
     </style>
 </head>
 <body>
-   <main>
+  
 
+  <header>
     <nav>
         <ul>
             <li><a href="home">Home</a></li>
@@ -89,20 +122,29 @@
             <li><a href="contact">Contact</a></li>
         </ul>
     </nav>
+  </header>
     
 
-    <header>
+  <main>
+       <section>
         <h1>The Global Green Energy Report</h1>
-        
-        <pre>The global green energy sector is experiencing unprecedented growth, with solar and wind power leading the charge.
-            Solar energy efficiency has improved to 20%, while wind energy efficiency stands at 35%. 
-            The projected growth for
-            2025 shows a 15% increase in solar and a 10% increase in wind energy.</pre>
-    </header>
 
-    <article>
-            <h2>Introduction</h2>
-            <p>The global green energy sector is experiencing unprecedented growth, with solar and wind power leading the charge. Solar energy efficiency has improved to 20%, while wind energy efficiency stands at 35%. The projected growth for 2025 shows a 15% increase in solar and a 10% increase in wind energy.</p>
+        <h2>Introduction</h2>
+        
+       The global green energy sector is experiencing unprecedented growth, with solar and wind power leading the charge.
+       Solar energy efficiency has improved to 20%, while wind energy efficiency stands at 35%. 
+       The projected growth for
+       2025 shows a 15% increase in solar and a 10% increase in wind energy.
+       </section>
+  
+ 
+            <article>
+                <h2>Global Green Energy Trends</h2>
+                <p>The global green energy sector is witnessing significant advancements, particularly in solar and wind energy. Solar energy efficiency has improved to 20%, while wind energy efficiency stands at 35%. The projected growth for 2025 indicates a 15% increase in solar and a 10% increase in wind energy, highlighting the shift towards renewable energy sources.</p>
+            </article>
+        
+            
+           
     
             <section id="1">
                 <h3>Key Highlights</h3>
@@ -113,11 +155,8 @@
                 </ul>
             </section>
 
-            <section>
-                <h3>Conclusion</h3>
-                <p>The global green energy sector is on a promising trajectory, with significant advancements in solar and wind energy efficiency. The projected growth for 2025 indicates a strong shift towards renewable energy sources, contributing to a more sustainable future.</p>
-            </section>
-        </article>
+           
+        
 
   
     
@@ -156,9 +195,27 @@
             </tr>
         </tfoot>
     </table>
-    
+
+    <section>
+        <h3>Conclusion</h3>
+        <p>The global green energy sector is on a promising trajectory, with significant advancements in solar and wind
+            energy efficiency. The projected growth for 2025 indicates a strong shift towards renewable energy sources,
+            contributing to a more sustainable future.</p>
+    </section>
+
+    <hr>
+
+    <aside>
+        <h3>Related Articles</h3>
+        <ul>
+            <li><a href="article1">The Future of Solar Energy</a></li>
+            <li><a href="article2">Wind Energy Innovations</a></li>
+            <li><a href="article3">Hydro Power Advancements</a></li>
+        </ul>
+    </aside>
+    </main>
     
     <footer> &copy;2026 <strong>Prepared By Mohamed Ibrahim Yusuf</strong></footer>
-   </main>
+   
 </body>
 </html>
